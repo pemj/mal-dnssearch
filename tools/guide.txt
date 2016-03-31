@@ -6,8 +6,8 @@ To add intel:
 
 Create the rule and check it against the existing rule corpus for
 compatibility by calling intelcheck.sh
-(run intelcheck.sh --help for correct usage)
+(run intelcheck.sh -h for correct usage)
 
 If intelcheck doesn't complain, use intelwrite.sh
-(again, run intelwrite.sh --help for usage) to produce the new intel
+(again, run intelwrite.sh -h for usage) to produce the new intel
 lines, and append them to /opt/bro/feeds/local.intel.
